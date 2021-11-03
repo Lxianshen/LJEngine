@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0ee2fd61-b57e-465f-9329-0a5f3cd4a193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\头文件\editor">
+      <UniqueIdentifier>{fb334d9b-8084-413b-8a03-4f63fa6c367e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\源文件\editor">
+      <UniqueIdentifier>{64e45270-f91c-4acf-bf94-b5fd9ca91a67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\头文件\editor\imgui">
+      <UniqueIdentifier>{892cb173-fba8-4bea-841a-b18ded861785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\源文件\editor\imgui">
+      <UniqueIdentifier>{e3c8e812-90c2-4a33-a6ff-e422ef38ad5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\LJEngineFiles\glad\src\glad.c">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Framebuffers.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaBlend.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CommonFunction.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMaps.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui_demo.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui_draw.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui_impl_glfw.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui_impl_opengl3.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui_tables.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="editor\imgui\imgui_widgets.cpp">
+      <Filter>src\源文件\editor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineEditor.cpp">
+      <Filter>src\源文件\editor</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry_shader_exploding.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowMapping.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PointShadowSoft.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Framebuffers.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaBlend.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonFunction.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMaps.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imconfig.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imgui.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imgui_impl_glfw.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imgui_impl_opengl3.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imgui_internal.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imstb_rectpack.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imstb_textedit.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="editor\imgui\imstb_truetype.h">
+      <Filter>src\头文件\editor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineEditor.h">
+      <Filter>src\头文件\editor</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry_shader_exploding.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowMapping.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PointShadowSoft.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LJEngine.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
