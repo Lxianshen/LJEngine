@@ -23,6 +23,7 @@
     <ClCompile Include="AlphaBlend.cpp" />
     <ClCompile Include="CommonFunction.cpp" />
     <ClCompile Include="CubeMaps.cpp" />
+    <ClCompile Include="DirectLightPBR.cpp" />
     <ClCompile Include="editor\imgui\imgui.cpp" />
     <ClCompile Include="editor\imgui\imgui_demo.cpp" />
     <ClCompile Include="editor\imgui\imgui_draw.cpp" />
@@ -44,6 +45,7 @@
     <ClInclude Include="Camera.h" />
     <ClInclude Include="CommonFunction.h" />
     <ClInclude Include="CubeMaps.h" />
+    <ClInclude Include="DirectLightPBR.h" />
     <ClInclude Include="editor\imgui\imconfig.h" />
     <ClInclude Include="editor\imgui\imgui.h" />
     <ClInclude Include="editor\imgui\imgui_impl_glfw.h" />

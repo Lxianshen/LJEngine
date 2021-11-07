@@ -5,6 +5,7 @@
 #include "Geometry_shader_exploding.h"
 //#include "ShadowMapping.h"
 #include "PointShadowSoft.h"
+#include "DirectLightPBR.h"
 
 int main()
 {
@@ -24,7 +25,10 @@ int main()
     //ShadowMapping shadowMapping;
 
     //Initialize the Point Shadow Soft
-    PointShadowSoft pointShadowSoft;
+    //PointShadowSoft pointShadowSoft;
+
+    //Initialize the Point Shadow Soft
+    DirectLightPBR directLightPBR;
 
     return 0;
 

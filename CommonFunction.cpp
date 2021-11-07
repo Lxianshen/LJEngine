@@ -70,7 +70,7 @@ CommonFunction::CommonFunction() {
         std::cout << "Failed to initialize GLAD" << std::endl;
     }
 
-    Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
+    Camera camera(glm::vec3(10.0f, 0.0f, 3.0f));
 
     // Setup Dear ImGui context
     IMGUI_CHECKVERSION();

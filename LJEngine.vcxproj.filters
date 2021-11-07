@@ -87,6 +87,9 @@
     <ClCompile Include="PointShadowSoft.cpp">
       <Filter>src\源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DirectLightPBR.cpp">
+      <Filter>src\源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Shader.h">
@@ -156,6 +159,9 @@
       <Filter>src\头文件</Filter>
     </ClInclude>
     <ClInclude Include="PointShadowSoft.h">
+      <Filter>src\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectLightPBR.h">
       <Filter>src\头文件</Filter>
     </ClInclude>
   </ItemGroup>
